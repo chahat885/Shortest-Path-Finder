@@ -30,20 +30,9 @@ A brief description of what this project does and who it's for
 
 **Server:** Flask, Python
 
-## Rendered Website
-
-  https://shortest-path-finder-delta.vercel.app/
 
 
-## Used By
-
-This project is used by the following:
-
-- Students of IIT Guwahati
 
 
-## FAQ
 
-#### How will obtain my shortest path from source to destination?
 
-Every possible source and destination is mapped with a number ranging from (1 to 64). Path in the application will display the nodes in order to reach the destination. 
