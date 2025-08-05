@@ -14,11 +14,11 @@ const Routes = (props) => {
             </div>
             <ul className='pathDetails'>
                 <div className='labelText'>Path:</div>
-
-                {props.dataPoint.path.map((items) => (
-                    <div className='spots'>{items}</div>
+                {props.dataPoint.path.map((items, index) => (
+                    <li className='spots' key={index}>{items}</li>
                 ))}
             </ul>
+
             <div className='totalDistance'>
                 <div className='labelText'>Distance:</div>
                 <div className='distanceData'>{props.dataPoint.totalDis} m</div>
